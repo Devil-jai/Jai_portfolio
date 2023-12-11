@@ -1,0 +1,202 @@
+.profile_img{
+    background-image: url('../img/3.jpg');
+    height: 35rem;
+    width: 100%;
+    transform: scale(1.1);
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.5s;
+    background-size: cover;
+    
+}
+.blog_img{
+    background-image: url('https://uploads-ssl.webflow.com/64d0b64341df5d5d652f8857/64db7f1fea491f045ffde537_blog.jpg');
+    height: 8rem;
+    width: 100%;
+    transform: scale(1.1);
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.5s;
+    background-size: cover;
+    
+}
+.profile_img_div{
+    border: 1px solid #313237;
+    position: relative;
+    border-radius: 20px;
+    display: flex;    
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+}
+.blog_img_div{
+    border: 1px solid #313237;
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    /* width: 230px; */
+    height: 18rem;
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+}
+
+.profile_img:hover{
+    transform: scale(1.2);
+}
+.blog_img_div:hover{
+    .blog_img{
+    transform: scale(1.2);
+}
+}
+
+.profile_text_div{
+    position: absolute;
+    top: auto;
+    bottom: 40px;
+    left: 40px;
+    right: auto;
+}
+.blog_text_div2{
+    position: absolute;
+    top: auto;
+    bottom: 20px;
+    left: 20px;
+    right: auto;
+}
+.blog_text_div1{
+    position: absolute;
+    top: 20px;
+    color: #d8d8d8;
+    border-radius: 50px;
+    border: 1px solid #313237;
+    bottom: auto;
+    left: 22px;
+    right: auto;
+}
+.profile_text_div h1{
+    color: #d8d8d8;
+}
+.profile_text_div div{
+    color: rgba(216, 216, 216, .7);
+}
+.service_img{
+    width: 80px!important;
+    height: 80px!important;
+    transition: 0.5s ease-in-out;
+   
+}
+.services_img_div:hover{
+    .service_img{
+        /* transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+        transform-style: preserve-3d;    */
+        rotate: 6.283rad;
+        
+        /* transform: rotate(360deg); */
+       
+}
+}
+
+.service{
+    border: 2px solid #0064d8;
+    border-radius: 50%;
+    width: 80px;
+    transition: 0.5s ease-in-out;
+    
+    height: 80px;
+    background-image: linear-gradient(#191a1f, #26272b);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.work{
+   
+    width: 115px;
+   
+    
+    height: 115px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.work_img{
+    background-image: url(https://uploads-ssl.webflow.com/64d0b64341df5d5d652f8857/64dcc346777515a7d0c49278_work.jpg);
+    background-size: cover;
+    height: 115px;
+    border: 2px solid #202126;
+    border-radius: 50%;
+    width: 115px;
+    /* transition: 2s ease-in; */
+    transition: 2.5s ease-out;
+}
+
+.work_img_div:hover{
+    .work_img{
+        rotate: 18.85rad;
+    }
+}
+.contact_img{
+    width: 140px;
+    transition: 0.8s;
+    height: 100px;
+}
+
+.contact_img_div:hover{
+   
+      .contact_img{
+        transform: translateY(-170px)  translateX(170px);
+       
+      }
+
+    
+} 
+.blog_img_div:hover{
+    border: 1px solid blue;
+}
+.profile_img_div:hover{
+    border: 1px solid blue;
+}
+.second_row{
+    margin-left:0;
+
+    margin-top: 24px;
+}
+@media screen and (max-width: 992px) and (min-width:992px){
+    .services_img_div{
+        width: 364px;
+        margin-left: 22px;
+    }
+    .contact_div{
+        width: 255px;
+        margin-left: 21px;
+        margin-right: 0!important;
+        padding: 0!important;
+    }
+}
+@media  (max-width: 1120px) and (min-width:1023px){
+    .service{
+        width: 120px!important;
+        height: 120px!important;
+    }
+}
+@media screen and (max-width: 992px){
+    .services_img_div{
+        margin-top: 25px;
+    }
+}
+.Work_div{
+    margin-left: 0!important;
+    margin-right: 0!important;
+    padding: 0;
+}
+@media screen and (max-width: 992px) and (min-width:768px){
+    .contact_div{
+        padding-right: 0;
+    }
+}
+@media screen and (max-width: 768px){
+    .contact_div{
+        padding: 0;
+    }
+}

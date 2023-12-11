@@ -1,0 +1,31 @@
+.Contact{
+    background-color:#111217;
+    border: 1px solid #313237;
+    border-radius: 20px;
+    color: whitesmoke;
+}
+.send_button{
+    background-color: blue;
+    color: whitesmoke;
+    padding: 5px 32px;
+    border-radius: 14px;
+    border: none;
+    font-size: 20px;
+}
+.input{
+    background-color: #111217;
+    color: whitesmoke!important;
+    border-radius: 10px;
+    border: 1px solid #292a2f;
+}
+input::placeholder{
+    color: whitesmoke!important;
+}
+textarea::placeholder{
+    color: whitesmoke!important;
+}
+.input_style{
+    /* min-height: 150px; */
+    padding-top: 22px;
+    padding-left: 17px;
+}

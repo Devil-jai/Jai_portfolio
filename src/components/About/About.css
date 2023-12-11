@@ -1,0 +1,39 @@
+.about .lhs{
+    background-color: #111217;
+    border: 1px solid #313237;
+}
+.about .blue_line{
+    background-color: blue;
+    height: 5px;
+    width: 20%;
+}
+.about .about_img{
+    width: 100%;
+}
+.about .about_text{
+    text-align: justify;
+    
+}
+.chakra_img{
+    width: 130px;
+    animation: wheelRotation linear 4s infinite 
+    
+}
+@keyframes wheelRotation {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+ @media (min-width : 1200px) and (max-width : 1350px ){
+.about .about_text{
+    font-size: 35px !important;
+ 
+}
+ }
+ @media (min-width : 1024px) and (max-width : 1200px ){
+.about .about_text{
+    font-size: 29px !important;
+ 
+}
+ }
+

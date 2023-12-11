@@ -1,0 +1,29 @@
+.nav_list{
+    border: 1px solid #313237;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.portfolio{
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+.nav_list_item{
+    /* background-color: #0064d8;
+   
+    border-radius: 50px; */
+}
+.nav_list_items{
+    border: 1px solid #1a1b20;
+    border-radius: 50px;
+}
+.nav_list_items:hover{
+    background-color: #111217;
+    border: 1px solid #313237;
+    border-radius: 50px;
+}
+.home{
+    color: #d5d5d5!important;
+}
+.menu-bar{
+    background-color: white;
+}
