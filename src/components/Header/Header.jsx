@@ -40,8 +40,8 @@ const Header = () => {
           </button>
           <div className="collapse navbar-collapse justify-content-end me-5" id="navbarNavDropdown">
             <ul className="navbar-nav nav_list px-2 py-2">
-              <li className="nav-item nav_list_item px-3 py-1 justify-content-center d-flex" style={{backgroundColor:getColor('/'),borderRadius:getRadius('/')}}>
-                <NavLink to="/"  className="nav-link active home" aria-current="page">
+              <li className="nav-item nav_list_item px-3 py-1 justify-content-center d-flex" style={{backgroundColor:getColor('/Jai_portfolio'),borderRadius:getRadius('/Jai_portfolio')}}>
+                <NavLink to="/Jai_portfolio"  className="nav-link active home" aria-current="page">
                   Home
                 </NavLink>
               </li>
