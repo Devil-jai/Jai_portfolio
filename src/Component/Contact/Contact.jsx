@@ -1,11 +1,12 @@
 import React from 'react';
 import './ContactUs.css'
 import Heading from '../../components/Heading/Heading';
+import contact from "../../components/img/h_contact.png"
 
 const Contact = () => {
     return (
         <>
-        <Heading img="h_contact.png" about="Contact" title="Let's Talk"/>
+        <Heading img={contact} about="Contact" title="Let's Talk"/>
             <div className="container Contact my-5 px-5">
             <form action="https://formspree.io/f/mvojljrz" method="POST"   >
                     <div className='my-5 fs-3'>

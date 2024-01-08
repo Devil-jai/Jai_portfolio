@@ -19,7 +19,7 @@ function Background() {
           <Router>
       <Header />
         <Routes>
-          <Route path="/" element={<Home/>}></Route>
+          <Route path="/Jai_portfolio" element={<Home/>}></Route>
           <Route path="/about" element={<About/>}></Route>
           <Route path="/services" element={<Services/>}></Route>
           <Route path="/contact" element={<Contact  />}></Route>

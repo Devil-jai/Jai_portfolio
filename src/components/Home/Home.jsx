@@ -1,6 +1,9 @@
 import React from 'react'
 import './Home.css'
 import { NavLink } from 'react-router-dom'
+import logo from '../../components/img/react.png';
+import css from '../../components/img/css.png';
+import js from '../../components/img/js.png';
 
 function Home() {
     return (
@@ -25,17 +28,17 @@ function Home() {
                                     <div className="row">
                                         <div className="col-3">
                                             <div className="service">
-                                                <img className='service_img' src="react.png" alt="" />
+                                                <img className='service_img' src={logo} alt="" />
                                             </div>
                                         </div>
                                         <div className="col-1"></div>
                                         <div className="col-3"> <div className="service">
-                                            <img className='service_img' src="css.png" alt="" />
+                                            <img className='service_img' src={css} alt="" />
                                         </div></div>
                                         <div className="col-1"></div>
                                         <div className="col-3">
                                             <div className="service">
-                                                <img className='service_img' src="js.png" alt="" />
+                                                <img className='service_img' src={js} alt="" />
                                             </div>
                                         </div>
                                        
