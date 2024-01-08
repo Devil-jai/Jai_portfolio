@@ -1,10 +1,12 @@
 import React from 'react'
 import './About.css'
 import Heading from '../Heading/Heading'
+import jai from "../../components/img/jai.jpg"
+import chakra from "../../components/img/chakra.png"
 
 function About() {
   return (<>
-    <Heading img="jai.jpg" about="About" title="biography & abilities"/>
+    <Heading img={jai} about="About" title="biography & abilities"/>
     <div className="about mt-5">
       <div className="container">
         <div className="row">
@@ -16,12 +18,12 @@ function About() {
                 <h5 className='fw-normal mt-4 '>Front-End Developer</h5>
               </div>
               <div >
-                <img className="about_img my-4  rounded-5" src="jai.jpg" alt="" />
+                <img className="about_img my-4  rounded-5" src={jai} alt="" />
               </div>
             </div>
           </div>
           <div className="col-lg-6 col-12 text-light">
-            <img src="chakra.png" className='chakra_img my-5' alt="" />
+            <img src={chakra} className='chakra_img my-5' alt="" />
             <div className='fs-1 about_text fw-bold'>I'M JAI BAGARIA, A SKILLED AND INNOVATIVE  FRONT-END DEVELOPER. MY EXPERTISE LIES IN CREATING INTUITIVE AND VISUALLY APPEALING DIGITAL EXPERIENCES THAT CAPTIVATE USERS.</div>
           </div>
         </div>
