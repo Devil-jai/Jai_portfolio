@@ -7,7 +7,7 @@ import chakra from "../../components/img/chakra.png"
 
 function About() {
   return (<>
-    <Heading img={jaib} about="About" title="biography & abilities"/>
+    <Heading img={jaib} about="About" title="biography"/>
     <div className="about mt-5">
       <div className="container">
         <div className="row">

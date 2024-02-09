@@ -14,7 +14,7 @@ import createx from '../../components/img/createx.jpg';
 const Project = () => {
     return (
         <>
-            <Heading img={project} about="Our Work" title="inspiring selection" />
+            <Heading img={project} about="My Work" title="Projects" />
             <div className="container my-5">
                 <div className="row justify-content-center">
                     <div className="col-4 col-sm-8 outer_div mb-3">
