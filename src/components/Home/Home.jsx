@@ -72,7 +72,7 @@ function Home() {
                                     <div className="blog_text_div1 px-2 py-1">
                                         <div>
                                             <img className='me-2' src="	https://uploads-ssl.webflow.com/64d0b64341df5d5d652f8857/64d1249428c7cbf1c3be206f_circle%20blue.png" alt="" />
-                                            <span>inspiring selection</span>
+                                            <span>Projects</span>
                                         </div>
                                     </div>
                                     <div className="blog_text_div2">
