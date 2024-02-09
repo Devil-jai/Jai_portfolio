@@ -17,7 +17,7 @@ function Home() {
                         <div className='profile_text_div '>
                             <h1>ABOUT</h1>
                             <div><img className='me-2' src="https://uploads-ssl.webflow.com/64d0b64341df5d5d652f8857/64d1249482f35f915c7dd694_square.png" alt="" />
-                                <span > Biography & Abilities</span></div>
+                                <span > Biography</span></div>
                         </div>
                     </NavLink>
                     <div className="col-lg-8 col-12 p-0">
