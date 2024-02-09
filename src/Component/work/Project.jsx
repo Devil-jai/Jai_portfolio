@@ -9,6 +9,7 @@ import Matrimonial from '../../components/img/Matri_Jai.png';
 import rock from '../../components/img/stone.webp';
 import project from '../../components/img/h_project.png';
 import date from '../../components/img/date.png';
+import createx from '../../components/img/createx.jpg';
 
 const Project = () => {
     return (
@@ -65,6 +66,14 @@ const Project = () => {
                             <img src={date} class="card-img proj_image height_3 img-fluid" alt="not available" />
                             <div class="overlay">
                                 <div class="text">Date</div>
+                            </div>
+                        </NavLink>
+                    </div>
+                    <div className="col-4 outer_div mb-3">
+                        <NavLink to='https://65c63b274809de029359b0dc--rainbow-yeot-9bea9a.netlify.app/' className='card' target='_blank'>
+                            <img src={createx} class="card-img proj_image height_3 img-fluid" alt="not available" />
+                            <div class="overlay">
+                                <div class="text">Createx</div>
                             </div>
                         </NavLink>
                     </div>

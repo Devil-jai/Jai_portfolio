@@ -1,10 +1,11 @@
 .profile_img{
     background-image: url('../img/3.jpg');
-    height: 35rem;
+    height: 37rem;
     width: 100%;
     transform: scale(1.1);
     background-repeat: no-repeat;
     background-position: center;
+    
     transition: 0.5s;
     background-size: cover;
     

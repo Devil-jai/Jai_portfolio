@@ -1,12 +1,13 @@
 import React from 'react'
 import './About.css'
 import Heading from '../Heading/Heading'
-import jai from "../../components/img/jai.jpg"
+import jai from "../../components/img/about_img.jpg"
+import jaib from "../../components/img/header_img.jpg"
 import chakra from "../../components/img/chakra.png"
 
 function About() {
   return (<>
-    <Heading img={jai} about="About" title="biography & abilities"/>
+    <Heading img={jaib} about="About" title="biography & abilities"/>
     <div className="about mt-5">
       <div className="container">
         <div className="row">
