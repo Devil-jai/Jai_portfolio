@@ -88,7 +88,7 @@ const Project = () => {
                         </NavLink>
                     </div>
                     <div className="col-4 outer_div mb-3">
-                        <NavLink to='https://661fb751365e33b27ccbbc86--candid-dusk-c72fc6.netlify.app/' className='card' target='_blank'>
+                        <NavLink to='https://6624ecfee17b489a41345545--candid-dusk-c72fc6.netlify.app/' className='card' target='_blank'>
                             <img src={weather} class="card-img proj_image height_3 img-fluid" alt="not available" />
                             <div class="overlay">
                                 <div class="text">Weather</div>
