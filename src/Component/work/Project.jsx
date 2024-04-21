@@ -10,6 +10,8 @@ import rock from '../../components/img/stone.webp';
 import project from '../../components/img/h_project.png';
 import date from '../../components/img/date.png';
 import createx from '../../components/img/createx.jpg';
+import woodwavewonders from '../../components/img/woodwavewonders.png'
+import weather from '../../components/img/weather.png'
 
 const Project = () => {
     return (
@@ -74,6 +76,22 @@ const Project = () => {
                             <img src={createx} class="card-img proj_image height_3 img-fluid" alt="not available" />
                             <div class="overlay">
                                 <div class="text">Createx</div>
+                            </div>
+                        </NavLink>
+                    </div>
+                    <div className="col-4 outer_div mb-3">
+                        <NavLink to='https://www.woodwavewonders.com/' className='card' target='_blank'>
+                            <img src={woodwavewonders} class="card-img proj_image height_3 img-fluid" alt="not available" />
+                            <div class="overlay">
+                                <div class="text">WoodwaveWonders</div>
+                            </div>
+                        </NavLink>
+                    </div>
+                    <div className="col-4 outer_div mb-3">
+                        <NavLink to='https://661fb751365e33b27ccbbc86--candid-dusk-c72fc6.netlify.app/' className='card' target='_blank'>
+                            <img src={weather} class="card-img proj_image height_3 img-fluid" alt="not available" />
+                            <div class="overlay">
+                                <div class="text">Weather</div>
                             </div>
                         </NavLink>
                     </div>

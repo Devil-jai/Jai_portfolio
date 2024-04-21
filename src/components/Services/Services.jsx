@@ -8,6 +8,7 @@ import js from '../../components/img/js.png';
 import react from '../../components/img/react.png';
 import boot from '../../components/img/bootstrap.png';
 import logo from '../../components/img/react.png';
+import tailwind from '../../components/img/tailwind.svg';
 
 
 
@@ -69,6 +70,17 @@ function Services() {
               <div className="col-xl-7 col-xl-6 col-sm-7 col-12  text-light mt-2 ms-3">
                 <h5>ReactJs</h5>
                 <div>React is a free and open-source front-end JavaScript library for building user interfaces based on components</div>
+              </div>
+            </div>
+          </div>
+          <div className="col-xl-5 col-12 services_img_div col_background px-5  py-4 mt-5 mx-auto">
+            <div className="row ser">
+              <div className="col-4 service">
+                <img className='service_img' src={tailwind} alt="" />
+              </div>
+              <div className="col-xl-7 col-xl-6 col-sm-7 col-12  text-light mt-2 ms-3">
+                <h5>Tailwind Css</h5>
+                <div>Tailwind CSS is a utility-first CSS framework for rapidly building modern websites without ever leaving your HTML.</div>
               </div>
             </div>
           </div>

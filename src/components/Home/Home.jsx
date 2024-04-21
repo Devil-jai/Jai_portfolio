@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom'
 import logo from '../../components/img/react.png';
 import css from '../../components/img/css.png';
 import js from '../../components/img/js.png';
+import tailwind from '../../components/img/tailwind.svg';
 
 function Home() {
     return (
@@ -33,7 +34,7 @@ function Home() {
                                         </div>
                                         <div className="col-1"></div>
                                         <div className="col-3"> <div className="service">
-                                            <img className='service_img' src={css} alt="" />
+                                            <img className='service_img' src={tailwind} alt="" />
                                         </div></div>
                                         <div className="col-1"></div>
                                         <div className="col-3">
