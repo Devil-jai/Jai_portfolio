@@ -9,7 +9,7 @@ import About from '../About/About'
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 import Contact from '../../Component/Contact/Contact'
 import Project from '../../Component/work/Project'
-import Modal from '../Modal'
+
 
 function Background() {
   return (
@@ -24,7 +24,7 @@ function Background() {
           <Route path="/services" element={<Services/>}></Route>
           <Route path="/contact" element={<Contact  />}></Route>
           <Route path="/work" element={<Project  />}></Route>
-          <Route path="/popup" element={<Modal  />}></Route>
+          
         </Routes>
       <Footer/>
       </Router>
