@@ -1,9 +1,8 @@
 {
   "files": {
     "main.css": "/Jai_portfolio/static/css/main.501582a6.css",
-    "main.js": "/Jai_portfolio/static/js/main.477e7c8d.js",
+    "main.js": "/Jai_portfolio/static/js/main.9bb6719e.js",
     "static/js/787.1ed0c42c.chunk.js": "/Jai_portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/Matri_Jai.png": "/Jai_portfolio/static/media/Matri_Jai.e8de6ba68cc4d8a80ed7.png",
     "static/media/3.jpg": "/Jai_portfolio/static/media/3.bc3a49a7729902f13718.jpg",
     "static/media/chakra.png": "/Jai_portfolio/static/media/chakra.2d279497954ef5665732.png",
     "static/media/createx.jpg": "/Jai_portfolio/static/media/createx.5649ae7507cad0bc286c.jpg",
@@ -12,7 +11,6 @@
     "static/media/about_img.jpg": "/Jai_portfolio/static/media/about_img.42528a4dbcba397378c8.jpg",
     "static/media/html.png": "/Jai_portfolio/static/media/html.fbe6d37fecbba328d9d0.png",
     "static/media/js.png": "/Jai_portfolio/static/media/js.290f630040630c5948b6.png",
-    "static/media/netf.jpg": "/Jai_portfolio/static/media/netf.7ec20b9fc35b1bcdda37.jpg",
     "static/media/date.png": "/Jai_portfolio/static/media/date.ef5161e29d0873b83621.png",
     "static/media/weather.png": "/Jai_portfolio/static/media/weather.02c2be06a4752654274a.png",
     "static/media/css.png": "/Jai_portfolio/static/media/css.87f545c8e6cfb5682e51.png",
@@ -24,11 +22,11 @@
     "index.html": "/Jai_portfolio/index.html",
     "static/media/tailwind.svg": "/Jai_portfolio/static/media/tailwind.681db3393706b0b8d30fa63229e8ee85.svg",
     "main.501582a6.css.map": "/Jai_portfolio/static/css/main.501582a6.css.map",
-    "main.477e7c8d.js.map": "/Jai_portfolio/static/js/main.477e7c8d.js.map",
+    "main.9bb6719e.js.map": "/Jai_portfolio/static/js/main.9bb6719e.js.map",
     "787.1ed0c42c.chunk.js.map": "/Jai_portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.501582a6.css",
-    "static/js/main.477e7c8d.js"
+    "static/js/main.9bb6719e.js"
   ]
 }
