@@ -4,9 +4,9 @@ import { NavLink } from 'react-router-dom';
 import Heading from '../../components/Heading/Heading';
 import './Project.css';
 import roboto from '../../components/img/3.webp';
-import netflix from '../../components/img/netf.jpg';
+
 import car from '../../components/img/Car.jpg';
-import Matrimonial from '../../components/img/Matri_Jai.png';
+
 import rock from '../../components/img/stone.webp';
 import project from '../../components/img/h_project.png';
 import date from '../../components/img/date.png';
@@ -20,10 +20,6 @@ const Project = () => {
             <Heading img={project} about="My Work" title="Projects" />
             <div className="container my-5">
                 <div className="row justify-content-center">
-                
-
-                    
-
                     <div className="col-4 col-sm-8 outer_div mb-3">
                         <NavLink to='https://devil-jai.github.io/Bootstrap-Roberto/' className='card' target='_blank'>
                             <img src={roboto} class="card-img proj_image img-fluid height_3" alt="not available" />
