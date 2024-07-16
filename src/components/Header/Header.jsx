@@ -42,7 +42,7 @@ const Header = () => {
             <ul className="navbar-nav nav_list px-2 py-2">
               <li className="nav-item nav_list_item px-3 py-1 justify-content-center d-flex" style={{backgroundColor:getColor('/Jai_portfolio'),borderRadius:getRadius('/Jai_portfolio')}}>
                 <NavLink to="/Jai_portfolio"  className="nav-link active home" aria-current="page">
-                  Home
+                  Home  
                 </NavLink>
               </li>
               <li className="nav-item nav_list_items px-3 py-1 mx-2 justify-content-center d-flex" style={{backgroundColor:getColor('/about'),borderRadius:getRadius('/about')}}>

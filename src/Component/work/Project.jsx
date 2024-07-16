@@ -13,6 +13,7 @@ import date from '../../components/img/date.png';
 import createx from '../../components/img/createx.jpg';
 import woodwavewonders from '../../components/img/woodwavewonders.png'
 import weather from '../../components/img/weather.png'
+import almabetter from '../../components/img/almabetter.png'
 
 const Project = () => {
     return (
@@ -20,6 +21,14 @@ const Project = () => {
             <Heading img={project} about="My Work" title="Projects" />
             <div className="container my-5">
                 <div className="row justify-content-center">
+                    <div className="col-4 col-sm-8 outer_div mb-3">
+                        <NavLink to='https://devil-jai.github.io/Resume-Builder/' className='card' target='_blank'>
+                            <img src={almabetter} class="card-img proj_image img-fluid height_3" alt="not available" />
+                            <div class="overlay">
+                                <div class="text">Resume Builder</div>
+                            </div>
+                        </NavLink>
+                    </div>
                     <div className="col-4 col-sm-8 outer_div mb-3">
                         <NavLink to='https://devil-jai.github.io/Bootstrap-Roberto/' className='card' target='_blank'>
                             <img src={roboto} class="card-img proj_image img-fluid height_3" alt="not available" />
