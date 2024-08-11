@@ -1,3 +1,4 @@
+/* Existing styles */
 .card {
     border: 1px solid #313237;
     border-radius: 20px;
@@ -6,8 +7,6 @@
 
 .overlay {
     position: absolute;
-    opacity: 0;
-    width: 100%;
     opacity: 0;
     transition: .5s ease;
     background-color: #0064d8;
@@ -27,16 +26,144 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
 }
-.outer_div{
+
+.outer_div {
     width: 340px;
     height: 200px;
 }
-.proj_image{
+
+.proj_image {
     width: 100%;
-    height: 200px!important;
+    height: 200px !important;
+}
+
+/* New styles for modal */
+.modal-content {
+    background-color: #1c1c1c; /* Dark background */
+    color: #f1f1f1; /* Light text color */
+    border: 1px solid #444; /* Border color to match dark theme */
+}
+
+.modal-header {
+    border-bottom: 1px solid #444; /* Dark border */
+}
+
+.modal-footer {
+    border-top: 1px solid #444; /* Dark border */
+}
+
+.modal-title {
+    color: #f1f1f1; /* Light text color for title */
+}
+
+.btn-secondary {
+    background-color: #444; /* Dark background for button */
+    border-color: #666; /* Dark border */
+    color: #f1f1f1; /* Light text color */
+}
+
+.btn-secondary:hover {
+    background-color: #555; /* Slightly lighter dark background */
+    border-color: #777; /* Slightly lighter dark border */
+}
+
+.btn-primary {
+    background-color: #0064d8; /* Primary button color */
+    border-color: #004a8f; /* Darker border color */
+    color: #fff; /* White text color */
+}
+
+.btn-primary:hover {
+    background-color: #004a8f; /* Darker shade for hover effect */
+    border-color: #00396d; /* Even darker border for hover */
+}
+
+.btn-link {
+    color: #0064d8; /* Link color */
+}
+
+.btn-link:hover {
+    color: #004a8f; /* Darker link color on hover */
+}
+
+/* Center the modal on the screen */
+.modal-dialog {
+    display: flex;
+    align-items: center;
+    min-height: calc(100% - 1.75rem);
+}
+.custom-modal .modal-content {
+    background-color: #1c1c1c; /* Dark background */
+    color: #f1f1f1; /* Light text color */
+    border: 1px solid #444; /* Border color to match dark theme */
+    max-width: 900px; /* Set a maximum width for the modal */
+    margin: auto; /* Center the modal horizontally */
+}
+
+.custom-modal .modal-header {
+    border-bottom: 1px solid #444; /* Dark border */
+    position: relative; /* Positioning context for close icon */
+    padding: 1rem 1.5rem; /* Adjust padding if needed */
+    text-align: center; /* Center align the modal title */
+}
+
+.custom-modal .modal-body {
+    text-align: center; /* Center align text in the modal body */
+}
+
+.custom-modal .modal-footer {
+    border-top: 1px solid #444; /* Dark border */
+    justify-content: space-evenly; /* Center the buttons */
+}
+
+.custom-modal .modal-title {
+    color: #f1f1f1; /* Light text color for title */
+    font-size: 1.25rem; /* Adjust font size as needed */
+}
+
+.custom-close-icon {
+    color: #f1f1f1; /* Light color for the close icon */
+    font-size: 1.5rem; /* Size of the cross icon */
+    position: absolute;
+    top: 0.5rem; /* Adjust vertical positioning */
+    right: 1rem; /* Adjust horizontal positioning */
+    cursor: pointer; /* Cursor pointer for the close icon */
+}
+
+/* Center the modal on the screen */
+.modal-dialog {
+    display: flex;
+    align-items: center;
+    min-height: calc(100% - 1.75rem);
+}
+
+/* Centering the modal image */
+.modal-body img {
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+/* Adjust button styles for dark theme */
+.btn-primary {
+    background-color: #0064d8;
+    border-color: #004a8f;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #004a8f;
+    border-color: #00396d;
+}
+
+.btn-link {
+    color: #0064d8;
+}
+
+.btn-link:hover {
+    color: #004a8f;
+}
+.custom-modal-title{
+    margin: auto ;
 }
