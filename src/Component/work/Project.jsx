@@ -21,9 +21,9 @@ const projects = [
   { img: rock, title: "Rock, Paper, Scissors", link: 'https://devil-jai.github.io/Rock-Paper-Scissor/', description: "A simple rock, paper, scissors game.", sourceCodeLink: 'https://github.com/devil-jai/Rock-Paper-Scissor' },
   { img: car, title: "Car Animation", link: 'https://devil-jai.github.io/Car-Game/', description: "An animation of a car with interactive controls.", sourceCodeLink: 'https://github.com/devil-jai/Car-Game' },
   { img: date, title: "Date", link: 'https://devil-jai.github.io/date/', description: "A date-related utility app.", sourceCodeLink: 'https://github.com/devil-jai/date' },
-  { img: createx, title: "Createx", link: 'https://65c63b274809de029359b0dc--rainbow-yeot-9bea9a.netlify.app/', description: "A creative project showcasing various features.", sourceCodeLink: 'https://github.com/devil-jai/Createx' },
-  { img: woodwavewonders, title: "WoodwaveWonders", link: 'https://www.woodwavewonders.com/', description: "A website for Woodwave Wonders with interactive elements.", sourceCodeLink: 'https://github.com/devil-jai/WoodwaveWonders' },
-  { img: weather, title: "Weather", link: 'https://6624ecfee17b489a41345545--candid-dusk-c72fc6.netlify.app/', description: "A weather application displaying current weather information.", sourceCodeLink: 'https://github.com/devil-jai/Weather' }
+  { img: createx, title: "Createx", link: 'https://65c63b274809de029359b0dc--rainbow-yeot-9bea9a.netlify.app/', description: "A creative project showcasing various features.", sourceCodeLink: 'https://github.com/Rakshit21-git/Createx' },
+  { img: woodwavewonders, title: "WoodwaveWonders", link: 'https://www.woodwavewonders.com/', description: "A website for Woodwave Wonders with interactive elements.", sourceCodeLink: 'https://github.com/AryanThadani02/WoodwaveWonders' },
+  { img: weather, title: "Weather", link: 'https://6624ecfee17b489a41345545--candid-dusk-c72fc6.netlify.app/', description: "A weather application displaying current weather information.", sourceCodeLink: 'https://github.com/Devil-jai/weather-app' }
 ];
 
 const Project = () => {
