@@ -12,6 +12,7 @@ import woodwavewonders from '../../components/img/woodwavewonders.png';
 import weather from '../../components/img/weather.png';
 import almabetter from '../../components/img/almabetter.png';
 import { FaTimes } from 'react-icons/fa';
+import userinfo from '../../components/img/userinfo.jpg'
 import AOS from 'aos'; // Import AOS
 import 'aos/dist/aos.css'; // Import AOS CSS
 
@@ -23,7 +24,8 @@ const projects = [
   { img: date, title: "Date", link: 'https://devil-jai.github.io/date/', description: "A date-related utility app.", sourceCodeLink: 'https://github.com/devil-jai/date' },
   { img: createx, title: "Createx", link: 'https://65c63b274809de029359b0dc--rainbow-yeot-9bea9a.netlify.app/', description: "A creative project showcasing various features.", sourceCodeLink: 'https://github.com/Rakshit21-git/Createx' },
   { img: woodwavewonders, title: "WoodwaveWonders", link: 'https://www.woodwavewonders.com/', description: "A website for Woodwave Wonders with interactive elements.", sourceCodeLink: 'https://github.com/AryanThadani02/WoodwaveWonders' },
-  { img: weather, title: "Weather", link: 'https://6624ecfee17b489a41345545--candid-dusk-c72fc6.netlify.app/', description: "A weather application displaying current weather information.", sourceCodeLink: 'https://github.com/Devil-jai/weather-app' }
+  { img: weather, title: "Weather", link: 'https://6624ecfee17b489a41345545--candid-dusk-c72fc6.netlify.app/', description: "A weather application displaying current weather information.", sourceCodeLink: 'https://github.com/Devil-jai/weather-app' },
+  { img: userinfo, title: "UserInfo", link: 'https://userinfo-1-wg7g.onrender.com/', description: "A UserInfo application user create, Update, delete their info ", sourceCodeLink: 'https://github.com/Devil-jai/UserInfo' }
 ];
 
 const Project = () => {
