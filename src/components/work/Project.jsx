@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Modal, Button } from 'react-bootstrap';
-import Heading from '../../components/Heading/Heading';
+import Heading from '../Heading/Heading';
 import './Project.css';
 import roboto from '../../components/img/3.webp';
 import car from '../../components/img/Car.jpg';
@@ -13,6 +13,7 @@ import weather from '../../components/img/weather.png';
 import almabetter from '../../components/img/almabetter.png';
 import { FaTimes } from 'react-icons/fa';
 import userinfo from '../../components/img/userinfo.jpg'
+import todolist from '../../components/img/todolist.jpg'
 import AOS from 'aos'; // Import AOS
 import 'aos/dist/aos.css'; // Import AOS CSS
 
@@ -25,7 +26,8 @@ const projects = [
   { img: createx, title: "Createx", link: 'https://65c63b274809de029359b0dc--rainbow-yeot-9bea9a.netlify.app/', description: "A creative project showcasing various features.", sourceCodeLink: 'https://github.com/Rakshit21-git/Createx' },
   { img: woodwavewonders, title: "WoodwaveWonders", link: 'https://www.woodwavewonders.com/', description: "A website for Woodwave Wonders with interactive elements.", sourceCodeLink: 'https://github.com/AryanThadani02/WoodwaveWonders' },
   { img: weather, title: "Weather", link: 'https://6624ecfee17b489a41345545--candid-dusk-c72fc6.netlify.app/', description: "A weather application displaying current weather information.", sourceCodeLink: 'https://github.com/Devil-jai/weather-app' },
-  { img: userinfo, title: "UserInfo", link: 'https://userinfo-1-wg7g.onrender.com/', description: "A UserInfo application user create, Update, delete their info ", sourceCodeLink: 'https://github.com/Devil-jai/UserInfo' }
+  { img: userinfo, title: "UserInfo", link: 'https://userinfo-1-wg7g.onrender.com/', description: "A UserInfo application user create, Update, delete their info ", sourceCodeLink: 'https://github.com/Devil-jai/UserInfo' },
+  { img: todolist, title: "TodoList", link: 'https://todolist-frontend-gkdl.onrender.com/', description: "A full-stack ToDoList app built with the MERN stack, offering robust task management with seamless data persistence and a responsive user interface. ", sourceCodeLink: 'https://github.com/Devil-jai/TodoList' }
 ];
 
 const Project = () => {

@@ -7,8 +7,8 @@ import Footer from '../Footer/Footer'
 import Heading from '../Heading/Heading'
 import About from '../About/About'
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
-import Contact from '../../Component/Contact/Contact'
-import Project from '../../Component/work/Project'
+import Contact from '../Contact/Contact'
+import Project from '../work/Project'
 
 
 function Background() {

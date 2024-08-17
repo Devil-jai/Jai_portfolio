@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './ContactUs.css';
-import Heading from '../../components/Heading/Heading';
+import Heading from '../Heading/Heading';
 import contact from "../../components/img/h_contact.png";
 import AOS from 'aos'; // Import AOS
 import 'aos/dist/aos.css'; // Import AOS CSS
