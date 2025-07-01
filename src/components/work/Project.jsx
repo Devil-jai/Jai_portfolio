@@ -2,22 +2,24 @@ import React, { useState } from 'react';
 import { Modal, Button } from 'react-bootstrap';
 import Heading from '../Heading/Heading';
 import './Project.css';
-import roboto from '../../components/img/3.webp';
-import car from '../../components/img/Car.jpg';
-import rock from '../../components/img/stone.webp';
-import project from '../../components/img/h_project.png';
-import date from '../../components/img/date.png';
-import createx from '../../components/img/createx.jpg';
-import woodwavewonders from '../../components/img/woodwavewonders.png';
+import roboto from '../img/3.webp';
+import rock from '../img/stone.webp';
+import project from '../img/h_project.png';
+import createx from '../img/createx.jpg';
+import woodwavewonders from '../img/woodwavewonders.png';
 import weather from '../../components/img/weather.png';
-import almabetter from '../../components/img/almabetter.png';
+import almabetter from '../img/almabetter.png';
+import Agro from '../img/Agro.jpg'
+import ebus from '../img/ebus_management.jpg'
 import { FaTimes } from 'react-icons/fa';
-import userinfo from '../../components/img/userinfo.jpg'
-import todolist from '../../components/img/todolist.jpg'
+import userinfo from '../img/userinfo.jpg'
+import todolist from '../img/todolist.jpg'
 import AOS from 'aos'; // Import AOS
 import 'aos/dist/aos.css'; // Import AOS CSS
 
 const projects = [
+  { img: Agro, title: "Agro Web App", link: 'https://farmer-government-aided-schemes.netlify.app/', description: "A web application that enables farmers to access, apply for, and track government agricultural schemes using Firebase.", sourceCodeLink: 'https://github.com/Devil-jai/Farmer-Government-Aided-Schemes' },
+  { img: ebus, title: "Ebus Management", link: 'https://ebus-management.netlify.app/', description: "A real-time bus tracking web application that allows users to view bus locations and arrival times based on current data using Firebase.", sourceCodeLink: 'https://github.com/Devil-jai/ebus_management' },
   { img: almabetter, title: "Resume Builder", link: 'https://devil-jai.github.io/Resume-Builder/', description: "A resume builder to help you create professional resumes easily.", sourceCodeLink: 'https://github.com/devil-jai/Resume-Builder' },
   { img: roboto, title: "Roberto Clone Website", link: 'https://devil-jai.github.io/Bootstrap-Roberto/', description: "A clone of the Roberto website using Bootstrap.", sourceCodeLink: 'https://github.com/devil-jai/Bootstrap-Roberto' },
   { img: rock, title: "Rock, Paper, Scissors", link: 'https://devil-jai.github.io/Rock-Paper-Scissor/', description: "A simple rock, paper, scissors game.", sourceCodeLink: 'https://github.com/devil-jai/Rock-Paper-Scissor' },
