@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/Jai_portfolio/static/css/main.c61aad3a.css",
-    "main.js": "/Jai_portfolio/static/js/main.25c08568.js",
+    "main.js": "/Jai_portfolio/static/js/main.bc028b4f.js",
     "static/js/787.1ed0c42c.chunk.js": "/Jai_portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/todolist.jpg": "/Jai_portfolio/static/media/todolist.0ab87fe913f7479becaf.jpg",
+    "static/media/ebus_management.jpg": "/Jai_portfolio/static/media/ebus_management.ec6eeb3215de9ac438c2.jpg",
     "static/media/3.jpg": "/Jai_portfolio/static/media/3.bc3a49a7729902f13718.jpg",
     "static/media/chakra.png": "/Jai_portfolio/static/media/chakra.2d279497954ef5665732.png",
     "static/media/createx.jpg": "/Jai_portfolio/static/media/createx.5649ae7507cad0bc286c.jpg",
@@ -12,12 +13,12 @@
     "static/media/about_img.jpg": "/Jai_portfolio/static/media/about_img.42528a4dbcba397378c8.jpg",
     "static/media/html.png": "/Jai_portfolio/static/media/html.fbe6d37fecbba328d9d0.png",
     "static/media/js.png": "/Jai_portfolio/static/media/js.290f630040630c5948b6.png",
-    "static/media/date.png": "/Jai_portfolio/static/media/date.ef5161e29d0873b83621.png",
     "static/media/userinfo.jpg": "/Jai_portfolio/static/media/userinfo.bb05caaa06795e74e54e.jpg",
     "static/media/weather.png": "/Jai_portfolio/static/media/weather.02c2be06a4752654274a.png",
     "static/media/css.png": "/Jai_portfolio/static/media/css.87f545c8e6cfb5682e51.png",
     "static/media/stone.webp": "/Jai_portfolio/static/media/stone.f407c54e34c211bcabf3.webp",
     "static/media/almabetter.png": "/Jai_portfolio/static/media/almabetter.df118c3ccb94291eb6eb.png",
+    "static/media/Agro.jpg": "/Jai_portfolio/static/media/Agro.c244b750d26ca9f6fb9d.jpg",
     "static/media/react.png": "/Jai_portfolio/static/media/react.aeeaae53b25cd428287b.png",
     "static/media/h_project.png": "/Jai_portfolio/static/media/h_project.5c5f841faae34b349175.png",
     "static/media/3.webp": "/Jai_portfolio/static/media/3.c5be70e71748180f303e.webp",
@@ -25,11 +26,11 @@
     "index.html": "/Jai_portfolio/index.html",
     "static/media/tailwind.svg": "/Jai_portfolio/static/media/tailwind.681db3393706b0b8d30fa63229e8ee85.svg",
     "main.c61aad3a.css.map": "/Jai_portfolio/static/css/main.c61aad3a.css.map",
-    "main.25c08568.js.map": "/Jai_portfolio/static/js/main.25c08568.js.map",
+    "main.bc028b4f.js.map": "/Jai_portfolio/static/js/main.bc028b4f.js.map",
     "787.1ed0c42c.chunk.js.map": "/Jai_portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c61aad3a.css",
-    "static/js/main.25c08568.js"
+    "static/js/main.bc028b4f.js"
   ]
 }
