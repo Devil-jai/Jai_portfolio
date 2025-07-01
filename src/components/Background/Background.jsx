@@ -9,6 +9,7 @@ import About from '../About/About'
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 import Contact from '../Contact/Contact'
 import Project from '../work/Project'
+import ScrollToTop from '../ScrollToTop'
 
 
 function Background() {
@@ -17,6 +18,7 @@ function Background() {
         <div className="background" style={{backgroundColor:"#1a1b20" ,width:"100%",height:"100%"}}>
           <div className="container outer_container pt-5 pb-1 " >
           <Router>
+            <ScrollToTop/>
       <Header />
         <Routes>
           <Route path="/Jai_portfolio" element={<Home/>}></Route>
@@ -26,6 +28,7 @@ function Background() {
           <Route path="/work" element={<Project  />}></Route>
           
         </Routes>
+      
       <Footer/>
       </Router>
           
