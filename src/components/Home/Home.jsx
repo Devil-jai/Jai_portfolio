@@ -28,6 +28,7 @@ function Home() {
     return () => clearTimeout(fallback);
   }, []);
 
+  console.log(imagesLoaded);
   // Handle when each image is loaded
   const handleImageLoad = () => {
     setImagesLoaded((prev) => {
